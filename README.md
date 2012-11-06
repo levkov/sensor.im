@@ -13,3 +13,5 @@ Current (ZSA1-E model) Features:
 4. Cheap: 50~60$ for all parts price (based on Alibaba and Sparkfun prices, shipping included)
 5. Can be easy assembled (minimal soldering and enclosure modification)
 6. Web based network setting setup (save network settings in EEPROM) 
+
+<img src="https://lh3.googleusercontent.com/-27lLNB3IDv0/UJOncSsGcQI/AAAAAAABMKI/ofErJhj9w0o/s512/IMG-20121102-00209.jpg" border="0" alt="" />
