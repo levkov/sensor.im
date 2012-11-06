@@ -15,3 +15,9 @@ Current (ZSA1-E model) Features:
 6. Web based network setting setup (save network settings in EEPROM) 
 
 <img src="https://lh3.googleusercontent.com/-27lLNB3IDv0/UJOncSsGcQI/AAAAAAABMKI/ofErJhj9w0o/s512/IMG-20121102-00209.jpg" border="0" alt="" />
+
+<img src="https://lh4.googleusercontent.com/-S5GX2HO_vJ8/UJOnc_rJ0XI/AAAAAAABMKM/rm7oedOM9FI/s512/IMG-20121102-00210.jpg" border="0" alt="" />
+
+<img src="https://lh5.googleusercontent.com/-U3sJCVcWc5A/UJOrTr2ny_I/AAAAAAABMLE/BV9vmo6Qxg8/s721/temperature.jpg" border="0" alt="" />
+
+<img src="https://lh5.googleusercontent.com/-PbilnmZSago/UJOrTmpvBII/AAAAAAABMKg/PtI5rIOPOPw/s763/web-setup.PNG" border="0" alt="" />
