@@ -319,7 +319,7 @@ void parseCommand() {  //Commands recieved by agent on port 10050 parsing
 
   // AGENT.PING      
   if(cmd.equals("agent.ping")) {
-      server.println("ZBXD1");
+      server.println("1");
       client.stop();
 //      connected = false;
 
