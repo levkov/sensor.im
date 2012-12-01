@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Sensor.im : Embedded Zabbix Agent Sensor" />
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Sensor.im by levkov</title>
+    <title>Sensor.im</title>
   </head>
 
   <body>
-    <header>
-      <div class="inner">
-        <h1>Sensor.im</h1>
-        <h2>Embedded Zabbix Agent Sensor</h2>
-        <a href="https://github.com/levkov/sensor.im" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <p>ZSA1-E is a stand alone, hardware ZABBIX Agent (running Zabbix Agent-like firmware directly on micro-controller) using Arduino Mega 2560 Board + Ethernet Shield (Wiznet W5100). This device equipped with DHT22 temperature-humidity sensor. </p>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/levkov/sensor.im">View on GitHub</a>
+
+          <h1 id="project_title">Sensor.im</h1>
+          <h2 id="project_tagline">Embedded Zabbix Agent Sensor</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/levkov/sensor.im/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/levkov/sensor.im/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>ZSA1-E is a stand alone, hardware ZABBIX Agent (running Zabbix Agent-like firmware directly on micro-controller) using Arduino Mega 2560 Board + Ethernet Shield (Wiznet W5100). This device equipped with DHT22 temperature-humidity sensor. </p>
 
 <p>Current (ZSA1-E model) Features:</p>
 
 <ol>
-<li>Measures temperature and humidity using calibrated digital sensor</li>
+<li>Measures temperature and humidity using calibrated digital sensor / Detect motion using camera</li>
 <li>Direct monitoring with Zabbix Server (behave like Zabbix agent in passive mode)</li>
 <li>Can support PoE 802.3 (need special Ethernet Shield with PoE support)</li>
-<li>Cheap: 50~60$ for all parts price (based on Alibaba and Sparkfun prices, shipping included)</li>
+<li>Cheap</li>
 <li>Can be easy assembled (minimal soldering and enclosure modification)</li>
 <li>Web based network setting setup (save network settings in EEPROM) </li>
-</ol><p>It's firmware and design will be free and open source. Also Wi-Fi version (with the same form factor) and support for additional sensors (dust, motion, light, Co2..etc) will be implemented in near future.</p>
+</ol><p>It's firmware and design will be free and open source. Also Wi-Fi version (with the same form factor) and support for additional sensors (dust, light, Co2..etc) will be implemented in near future.</p>
 
-<p><img src="https://lh3.googleusercontent.com/-27lLNB3IDv0/UJOncSsGcQI/AAAAAAABMKI/ofErJhj9w0o/s512/IMG-20121102-00209.jpg" alt="ZSA1-E"></p>
+<p><img src="https://lh6.googleusercontent.com/-glmCXJygepE/ULoR4KFLvcI/AAAAAAABOCo/zvZGLSvnQjI/s720/DSCN5204.JPG" alt="ZSA1-E"></p>
 
-<p><img src="https://lh4.googleusercontent.com/-S5GX2HO_vJ8/UJOnc_rJ0XI/AAAAAAABMKM/rm7oedOM9FI/s512/IMG-20121102-00210.jpg" alt="ZSA1-E"></p>
-        </section>
+<p><img src="https://lh4.googleusercontent.com/-25oYfN1Gjo8/ULoVzRootsI/AAAAAAABOHU/GyYCFgdHwL4/s512/DSCN5225.JPG" alt="ZSA1-E with camera"></p>
 
-        <aside id="sidebar">
-          <a href="https://github.com/levkov/sensor.im/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/levkov/sensor.im/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+<p><img src="https://lh5.googleusercontent.com/-IG7VdB59kSo/ULoWSn0ER8I/AAAAAAABOHs/43-iP1j-XD8/s512/DSCN5228.JPG" alt="ZSA1-E with camera"></p>
 
-          <p class="repo-owner"><a href="https://github.com/levkov/sensor.im"></a> is maintained by <a href="https://github.com/levkov">levkov</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+<p><img src="https://lh4.googleusercontent.com/-2IuDSmM9kIM/ULoToCZJi7I/AAAAAAABOIY/MJTQaSF9Bcs/s512/DSCN5214.JPG" alt="ZSA1-E with temperature and humidity sensor"></p>
+      </section>
     </div>
 
-            <script type="text/javascript">
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Sensor.im maintained by <a href="https://github.com/levkov">levkov</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -73,6 +72,7 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
+
 
   </body>
 </html>
