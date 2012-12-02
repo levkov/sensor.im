@@ -93,7 +93,7 @@ prog_char htmle6[] PROGMEM = "document.getElementById('T12').value = hex2num(doc
 PROGMEM const char *string_table5[] = {htmle0, htmle1, htmle2, htmle3, htmle4, htmle5, htmle6};
 //--------------------------------------------
 String cmd; //FOR ZABBIX COMMAND
-int led = 33; //LED PORT TO BLINK AFTER RECIEVING ZABBIX COMMAND
+// int led = 33; //LED PORT TO BLINK AFTER RECIEVING ZABBIX COMMAND
 //--------------------------------------------
 const byte ID = 0x92; //used to identify if valid data in EEPROM the "know" bit, 
 // if this is written in EEPROM the sketch has ran before
@@ -110,8 +110,8 @@ void setup()
      webserver.begin();
      pinMode(2, OUTPUT); //???
      pinMode(7, INPUT_PULLUP); //???
-     pinMode(led, OUTPUT);    
-     digitalWrite(led, LOW); 
+//    pinMode(led, OUTPUT);    
+//     digitalWrite(led, LOW); 
  
 }
 
@@ -338,20 +338,20 @@ void parseCommand() {  //Commands recieved by agent on port 10050 parsing
 } else if(cmd.equals("humidity.read")) {
       float h = dht.readHumidity();
        server.println(h );
-     digitalWrite(led, HIGH);
+//     digitalWrite(led, HIGH);
       client.stop();
       delay(2000);
-      digitalWrite(led, LOW);
+//      digitalWrite(led, LOW);
 
 // TEMPERATURE.READ
 } else if(cmd.equals("temperature.read")) {
       float t = dht.readTemperature();
        server.println(t );
-     digitalWrite(led, HIGH);
+//     digitalWrite(led, HIGH);
       client.stop();
 //      connected = false;
       delay(2000);
-      digitalWrite(led, LOW);
+//      digitalWrite(led, LOW);
       
 // NOT SUPPORTED      
   } else {
